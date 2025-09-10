@@ -1,45 +1,12 @@
-# React To-Do List
+# React + Vite
 
-A simple, beginner-friendly to-do list application built with React JS. Add your tasks, mark them as completed, and delete them when you’re done!
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Add new to-do items
-- Mark items as completed (check/uncheck)
-- Delete tasks you no longer need
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Getting Started
+## Expanding the ESLint configuration
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/bhaktichopra2/Todo-List.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd Todo
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-5. Open [http://localhost:3000](http://localhost:3000) to use the to-do list.
-
-## Usage
-
-- Type your task in the input box and press "Add" to save it.
-- Click on a task to mark it as complete or incomplete.
-- Click the delete (🗑️) button to remove a task from the list.
-
-## Tech Stack
-
-- React JS
-- JavaScript
-- CSS
-
-## Screenshot
-
-![To-Do List Screenshot](./image.png)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
