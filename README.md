@@ -42,4 +42,4 @@ A simple, beginner-friendly to-do list application built with React JS. Add your
 
 ## Screenshot
 
-![To-Do List Screenshot](./image.png)
+![To-Do List Screenshot](https://github.com/bhaktichopra2/Todo-List/blob/main/image.png)
